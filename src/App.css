@@ -6,6 +6,14 @@
   height: 40vmin;
   pointer-events: none;
 }
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
